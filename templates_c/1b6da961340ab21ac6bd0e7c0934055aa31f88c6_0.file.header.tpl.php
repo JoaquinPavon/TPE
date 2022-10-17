@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-13 21:12:47
+/* Smarty version 4.2.1, created on 2022-10-17 19:53:35
   from 'C:\xampp\htdocs\trabajo-practico-especial\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6348632fed82d8_73051384',
+  'unifunc' => 'content_634d969fca3361_28252296',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b6da961340ab21ac6bd0e7c0934055aa31f88c6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\trabajo-practico-especial\\templates\\header.tpl',
-      1 => 1665688155,
+      1 => 1666029015,
       2 => 'file',
     ),
   ),
@@ -20,17 +20,16 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6348632fed82d8_73051384 (Smarty_Internal_Template $_smarty_tpl) {
+function content_634d969fca3361_28252296 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <base href="<?php echo BASE_URL;?>
 ">
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/star.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>INFOJUEGOS</title>
 </head>

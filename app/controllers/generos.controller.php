@@ -44,7 +44,7 @@ function addGEN() {
 $this->userHelper->checkLoggedIn();
 if(isset($_POST['Generos']) && isset($_POST['Edad']) && trim($_POST['Edad'])){
 if(!empty($_POST['Generos']) && !empty($_POST['Edad']) && trim($_POST['Generos'])){
-if(!empty($_POST['Particularidad']) && !empty($_POST['Particularidad']) && trim($_POST['Particularidad'])){
+if(!empty($_POST['Particularidad']) && isset($_POST['Particularidad']) && trim($_POST['Particularidad'])){
 $GeneroG = $_POST['Generos'];
 $EdadG = $_POST['Edad'];
 $Particularidad = $_POST['Particularidad'];
@@ -71,10 +71,6 @@ if (!empty($_POST['Particularidad']) && isset($_POST['Particularidad'])&& trim($
 $this->modelGenero->UpdateGeneroBD($_POST['Genero_ID'], $_POST['Genero'],$_POST['Edad'],$_POST['Particularidad']);
 header("Location: " . BASE_URL);}}}
 else {header("Location: " . BASE_URL);}}
-
-
-
-
 
 
 }
